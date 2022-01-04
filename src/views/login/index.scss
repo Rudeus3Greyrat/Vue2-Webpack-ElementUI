@@ -1,0 +1,127 @@
+
+    .login-container {
+        width: 100vw;
+        height: 100vh;
+        background: url("../../assets/images/login_bg.png") no-repeat;
+        background-size: cover;
+
+        .main-block {
+            position: relative;
+            min-width: 1200px;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+
+            .el-row {
+                height: 100%;
+
+                .el-col {
+                    height: 100%;
+                }
+            }
+
+            .title-block {
+              
+                height: 100%;
+
+                .title-innerblock {
+                    color: #fff;
+
+                    h1 {
+                        margin-bottom: 20px;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 1.5;
+                    }
+                }
+
+                h2 {
+                    font-size: 16px;
+                    letter-spacing: 0.45px;
+                    line-height: 40px;
+                }
+            }
+        }
+
+        .login-block {
+            height: 100%;
+
+            .login-innerblock {
+                width: 400px;
+                padding: 40px;
+                background: #fff;
+                border-radius: 6px;
+
+                .title {
+                    margin-bottom: 40px;
+                    font-size: 28px;
+                    color: #000;
+                    font-weight: bolder;
+                    text-align: center;
+                }
+
+                .form-block {
+                    .input-block {
+                        position: relative;
+                        margin-bottom: 20px;
+
+                        .icon {
+                            left: 7px;
+                            z-index: 1;
+                            width: 18px;
+                            height: 18px;
+                        }
+
+                        .el-input__inner {
+                            padding-left: 30px;
+                        }
+                    }
+
+                    .username-block {
+                        .icon {
+                            // background: url("../assets/icon/login_user.png") no-repeat;
+                            background-size: cover;
+                        }
+                    }
+
+                    .password-block {
+                        .icon {
+                            // background: url("../assets/icon/login_password.png") no-repeat;
+                            background-size: cover;
+                        }
+                    }
+
+                    .remember-number {
+                        margin-bottom: 20px;
+                    }
+
+                    .login-btn {
+                        .el-button {
+                            width: 100%;
+                        }
+                    }
+
+                    .set-login-btn {
+                        display: block;
+                        margin-top: 20px;
+                        font-size: 12px;
+                        color: #409eff;
+                        text-align: center;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: rgb(48, 128, 254);
+                        }
+                    }
+                }
+            }
+        }
+
+        .copyright-block {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            font-size: 13px;
+            color: #fff;
+            text-align: center;
+        }
+    }

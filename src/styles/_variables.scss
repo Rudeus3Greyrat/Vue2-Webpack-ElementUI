@@ -1,0 +1,70 @@
+// colors
+$primary:#08D079;
+$blue:#324157;
+$light-blue:#3A71A8;
+$grey:#999999;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+
+$colors: ("primary": #08D079,
+    "blue": #324157,
+    "light-blue": #3A71A8,
+    "red": #C03639,
+    "pink": #E65D6E,
+    "green": #30B08F,
+    "tiffany": #4AB7BD,
+    "yellow": #FEC171,
+    "panGreen": #30B08F,
+);
+
+// font size
+$base-font-unit: 1px;
+$font-sizes: ( 
+    16: 16,
+    18: 18,
+    20: 20,
+    22: 22,
+    24: 24,
+    26: 26,
+    28: 28,
+    30: 30,
+    32: 32,
+    34: 34,
+    36: 36,
+    38: 38,
+  );
+$flex-jc: (start: flex-start,
+    end: flex-end,
+    center: center,
+    between: space-between,
+    around: space-around);
+$flex-ai: (start: flex-start,
+    end: flex-end,
+    center: center,
+    stretch: stretch);
+// spacing
+// 0-5: 0
+// .mt-1  => margin top  .pb-2
+$spacing-types: (m: margin,
+    p: padding);
+$spacing-directions: (t: top,
+    r: right,
+    b: bottom,
+    l: left);
+$spacing-base-unit: 1px;
+$spacing-sizes: (0: 0,
+    1: 5,
+    2: 10,
+    3: 15,
+    4: 20,
+    5: 25,
+    6: 30,
+    7: 35,
+    8: 40,
+    9: 45,
+    10: 50);
